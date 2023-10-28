@@ -12,7 +12,6 @@ MasterKit offers a wide range of tools, including but not limited to:
 - **Calendar**: Stay on top of your schedule.
 - **Weather Updates**: Check the weather forecast for your location.
 - **Converter**: Convert units, currencies, and more.
-- **Reminders**: Set important reminders.
 - **News Feed**: Stay informed with the latest news.
 - **and much more!**
 

@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.calculator {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #000000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.calculator-display {
+  font-size: 24px;
+  margin: 0 0 10px;
+  padding: 10px;
+  background: #1d1d1d;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calc-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 2px;
+  border: none;
+  border-radius: 4px;
+  background: #733bbd;
+  color: #fff;
+  cursor: pointer;
+  /* transition: background 0.3s; */
+}
+
+.calc-button button:hover {
+  background: #00518c;
+}
