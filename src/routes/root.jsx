@@ -6,6 +6,7 @@ import { PiMathOperationsBold } from "react-icons/pi";
 import { TiWeatherPartlySunny } from "react-icons/ti";
 import { BsGearFill, BsCalendarDate, BsQrCodeScan } from "react-icons/bs";
 import { BiNews } from "react-icons/bi";
+import { FaGithubAlt } from "react-icons/fa";
 import { useState } from "react";
 import CustomInput from "../components/Input";
 
@@ -32,6 +33,7 @@ const tools = [
     title: "Weather Updates",
     description: " Check the weather forecast for your location",
     icon: <TiWeatherPartlySunny />,
+    url: "/weather",
   },
   {
     title: "Converter",
@@ -42,6 +44,7 @@ const tools = [
     title: "News Feed",
     description: "Stay informed with the latest news",
     icon: <BiNews />,
+    url: "/news",
   },
   {
     title: "Calander",
@@ -52,6 +55,13 @@ const tools = [
     title: "QR Code Scanner & Reader",
     description: "Create or Read QR Code easily",
     icon: <BsQrCodeScan />,
+    url: "/qr",
+  },
+  {
+    title: "Github Proifle",
+    description: "View your Github Profile",
+    icon: <FaGithubAlt />,
+    url: "/github-profile",
   },
 ];
 
